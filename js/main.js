@@ -36,7 +36,7 @@ const getMealsList = async searchName => {
         displayMealsData(data);//call displayMealsData function
         getId('message').innerText = '';
     } else {
-        getId('message').innerText = `The "${searchName}" Foods not found! Try another foods like chicken, beef, pasta.`;
+        getId('message').innerText = `This "${searchName}"  type of Foods are not available to us.! Try another like chicken or beef or pasta.`;
     }
 };
 
