@@ -1,0 +1,14 @@
+body {
+    background: url(../images/bg-image.jpg) no-repeat;
+    background-size: cover;
+}
+.card{
+    cursor: pointer;
+}
+/*default modal body hidden*/
+#modal-body{
+    display: none;
+}
+.bg-custom {
+	background: linear-gradient(45deg,#7b42f7,#5d94af);
+}
